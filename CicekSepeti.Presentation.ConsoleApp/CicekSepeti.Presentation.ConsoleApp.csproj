@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CicekSepeti.Core.Api\CicekSepeti.Core.Api.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Core.Dependency\CicekSepeti.Core.Dependency.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Core.Infrastructure\CicekSepeti.Core.Infrastructure.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Data.Model.Infrastructure\CicekSepeti.Data.Model.Infrastructure.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Data.Repository.Derived.EFSQL\CicekSepeti.Data.Repository.Derived.EFSQL.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Data.Repository.Infrastructure\CicekSepeti.Data.Repository.Infrastructure.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Model.DtoModel\CicekSepeti.Model.DtoModel.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Model.ViewModel\CicekSepeti.Model.ViewModel.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Operation.BusinessOperation\CicekSepeti.Operation.BusinessOperation.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Operation.OperationManager\CicekSepeti.Operation.OperationManager.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Operation.ValidationOperation\CicekSepeti.Operation.ValidationOperation.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Validation.DtoValidation\CicekSepeti.Validation.DtoValidation.csproj" />
+  </ItemGroup>
+
+</Project>

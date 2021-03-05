@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Baskets\Basket\" />
+    <Folder Include="Customers\Customer\" />
+    <Folder Include="OperationManagers\Baskets\Concrete\" />
+    <Folder Include="OperationManagers\Customers\Concrete\" />
+    <Folder Include="OperationManagers\Products\Concrete\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CicekSepeti.Data.Model.Infrastructure\CicekSepeti.Data.Model.Infrastructure.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Model.DtoModel\CicekSepeti.Model.DtoModel.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Model.ViewModel\CicekSepeti.Model.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>

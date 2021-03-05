@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CicekSepeti.Core.Infrastructure\CicekSepeti.Core.Infrastructure.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Data.Model.Infrastructure\CicekSepeti.Data.Model.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

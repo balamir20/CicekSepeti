@@ -1,0 +1,150 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-CicekSepeti.Core", "01-CicekSepeti.Core", "{723FDE09-1224-4539-B92C-DA7163F9C6A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Core.Api", "CicekSepeti.Core.Api\CicekSepeti.Core.Api.csproj", "{1F2B1BB2-D01C-44F7-85BA-FC805F2FFEDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Core.Dependency", "CicekSepeti.Core.Dependency\CicekSepeti.Core.Dependency.csproj", "{EB77AAC5-5298-4779-ADA5-037BDDBCF7C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Core.Infrastructure", "CicekSepeti.Core.Infrastructure\CicekSepeti.Core.Infrastructure.csproj", "{4735A611-84A0-41B7-AC00-B31A506ACBE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-CicekSepeti.Data", "02-CicekSepeti.Data", "{F66AD838-443C-4F47-A385-0A9322EBA1F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CicekSepeti.Data.Model", "CicekSepeti.Data.Model", "{EEF0396D-F4CA-4316-BB9E-71E1C7A6C863}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Data.Model.Infrastructure", "CicekSepeti.Data.Model.Infrastructure\CicekSepeti.Data.Model.Infrastructure.csproj", "{B4285526-893F-4A43-9E5D-CBDD59AD8B2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CicekSepeti.Data.Repository", "CicekSepeti.Data.Repository", "{EB552FCC-1F5A-432D-9A22-82EBE17B6FB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CicekSepeti.Data.Repository.Derived", "CicekSepeti.Data.Repository.Derived", "{E83F72B7-731B-4600-B671-CF51DB4711C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Data.Repository.Infrastructure", "CicekSepeti.Data.Repository.Infrastructure\CicekSepeti.Data.Repository.Infrastructure.csproj", "{8934C9AC-1185-4B55-A885-BD6DB5494DD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Data.Repository.Derived.EFSQL", "CicekSepeti.Data.Repository.Derived.EFSQL\CicekSepeti.Data.Repository.Derived.EFSQL.csproj", "{6D9B2675-D32D-49A0-82B0-896DB8C6AC36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-CicekSepeti.Model", "03-CicekSepeti.Model", "{F790990B-6FC8-4919-AADD-28DA8F3E6F0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Model.DtoModel", "CicekSepeti.Model.DtoModel\CicekSepeti.Model.DtoModel.csproj", "{8B7C9CDA-F488-43B9-8D55-F3559A79862F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Model.ViewModel", "CicekSepeti.Model.ViewModel\CicekSepeti.Model.ViewModel.csproj", "{AA26550D-D5E3-4EF5-8AEF-7A5496340D3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-CicekSepeti.Validation", "04-CicekSepeti.Validation", "{CE8E23D7-2A20-4E1E-ACED-8ED798D8B609}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-CicekSepeti.Operation", "05-CicekSepeti.Operation", "{645E74FC-A172-44A1-B6DF-227ECAD609E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-CicekSepeti.Presentation", "06-CicekSepeti.Presentation", "{9FFBF5C2-A7A8-4343-967B-71990257145B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Presentation.API", "CicekSepeti.Presentation.API\CicekSepeti.Presentation.API.csproj", "{26F1CDA0-77C0-45EF-AF1D-04FE7581C2ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Validation.DtoValidation", "CicekSepeti.Validation.DtoValidation\CicekSepeti.Validation.DtoValidation.csproj", "{1A1EFDEA-06BC-4E6F-955D-9208FEE3C230}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Presentation.Test", "CicekSepeti.Presentation.Test\CicekSepeti.Presentation.Test.csproj", "{9DD16EAA-0823-4D6B-AA12-B782402D67D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CicekSepeti.Operations", "CicekSepeti.Operations", "{054A30CB-2AE5-4DAF-A599-35DB3A6068C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Operation.ValidationOperation", "CicekSepeti.Operation.ValidationOperation\CicekSepeti.Operation.ValidationOperation.csproj", "{13709C87-DF19-45BA-9A78-E5AAE1BCBFE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Operation.BusinessOperation", "CicekSepeti.Operation.BusinessOperation\CicekSepeti.Operation.BusinessOperation.csproj", "{54721150-F4E9-4B99-87E0-CA848A2593B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.Operation.OperationManager", "CicekSepeti.Operation.OperationManager\CicekSepeti.Operation.OperationManager.csproj", "{709DD7C6-20FE-45B1-997F-0D59DC05C588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CicekSepeti.Presentation.ConsoleApp", "CicekSepeti.Presentation.ConsoleApp\CicekSepeti.Presentation.ConsoleApp.csproj", "{E6562491-4475-45A8-840B-F849192A3C38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F2B1BB2-D01C-44F7-85BA-FC805F2FFEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2B1BB2-D01C-44F7-85BA-FC805F2FFEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2B1BB2-D01C-44F7-85BA-FC805F2FFEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2B1BB2-D01C-44F7-85BA-FC805F2FFEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB77AAC5-5298-4779-ADA5-037BDDBCF7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB77AAC5-5298-4779-ADA5-037BDDBCF7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB77AAC5-5298-4779-ADA5-037BDDBCF7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB77AAC5-5298-4779-ADA5-037BDDBCF7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4735A611-84A0-41B7-AC00-B31A506ACBE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4735A611-84A0-41B7-AC00-B31A506ACBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4735A611-84A0-41B7-AC00-B31A506ACBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4735A611-84A0-41B7-AC00-B31A506ACBE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4285526-893F-4A43-9E5D-CBDD59AD8B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4285526-893F-4A43-9E5D-CBDD59AD8B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4285526-893F-4A43-9E5D-CBDD59AD8B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4285526-893F-4A43-9E5D-CBDD59AD8B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8934C9AC-1185-4B55-A885-BD6DB5494DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8934C9AC-1185-4B55-A885-BD6DB5494DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8934C9AC-1185-4B55-A885-BD6DB5494DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8934C9AC-1185-4B55-A885-BD6DB5494DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9B2675-D32D-49A0-82B0-896DB8C6AC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9B2675-D32D-49A0-82B0-896DB8C6AC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9B2675-D32D-49A0-82B0-896DB8C6AC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9B2675-D32D-49A0-82B0-896DB8C6AC36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7C9CDA-F488-43B9-8D55-F3559A79862F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7C9CDA-F488-43B9-8D55-F3559A79862F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7C9CDA-F488-43B9-8D55-F3559A79862F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7C9CDA-F488-43B9-8D55-F3559A79862F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA26550D-D5E3-4EF5-8AEF-7A5496340D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA26550D-D5E3-4EF5-8AEF-7A5496340D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA26550D-D5E3-4EF5-8AEF-7A5496340D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA26550D-D5E3-4EF5-8AEF-7A5496340D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F1CDA0-77C0-45EF-AF1D-04FE7581C2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F1CDA0-77C0-45EF-AF1D-04FE7581C2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F1CDA0-77C0-45EF-AF1D-04FE7581C2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F1CDA0-77C0-45EF-AF1D-04FE7581C2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1EFDEA-06BC-4E6F-955D-9208FEE3C230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1EFDEA-06BC-4E6F-955D-9208FEE3C230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1EFDEA-06BC-4E6F-955D-9208FEE3C230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1EFDEA-06BC-4E6F-955D-9208FEE3C230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD16EAA-0823-4D6B-AA12-B782402D67D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD16EAA-0823-4D6B-AA12-B782402D67D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD16EAA-0823-4D6B-AA12-B782402D67D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD16EAA-0823-4D6B-AA12-B782402D67D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13709C87-DF19-45BA-9A78-E5AAE1BCBFE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13709C87-DF19-45BA-9A78-E5AAE1BCBFE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13709C87-DF19-45BA-9A78-E5AAE1BCBFE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13709C87-DF19-45BA-9A78-E5AAE1BCBFE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54721150-F4E9-4B99-87E0-CA848A2593B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54721150-F4E9-4B99-87E0-CA848A2593B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54721150-F4E9-4B99-87E0-CA848A2593B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54721150-F4E9-4B99-87E0-CA848A2593B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{709DD7C6-20FE-45B1-997F-0D59DC05C588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709DD7C6-20FE-45B1-997F-0D59DC05C588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709DD7C6-20FE-45B1-997F-0D59DC05C588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709DD7C6-20FE-45B1-997F-0D59DC05C588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6562491-4475-45A8-840B-F849192A3C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6562491-4475-45A8-840B-F849192A3C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6562491-4475-45A8-840B-F849192A3C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6562491-4475-45A8-840B-F849192A3C38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F2B1BB2-D01C-44F7-85BA-FC805F2FFEDE} = {723FDE09-1224-4539-B92C-DA7163F9C6A6}
+		{EB77AAC5-5298-4779-ADA5-037BDDBCF7C6} = {723FDE09-1224-4539-B92C-DA7163F9C6A6}
+		{4735A611-84A0-41B7-AC00-B31A506ACBE5} = {723FDE09-1224-4539-B92C-DA7163F9C6A6}
+		{EEF0396D-F4CA-4316-BB9E-71E1C7A6C863} = {F66AD838-443C-4F47-A385-0A9322EBA1F1}
+		{B4285526-893F-4A43-9E5D-CBDD59AD8B2A} = {EEF0396D-F4CA-4316-BB9E-71E1C7A6C863}
+		{EB552FCC-1F5A-432D-9A22-82EBE17B6FB3} = {F66AD838-443C-4F47-A385-0A9322EBA1F1}
+		{E83F72B7-731B-4600-B671-CF51DB4711C9} = {EB552FCC-1F5A-432D-9A22-82EBE17B6FB3}
+		{8934C9AC-1185-4B55-A885-BD6DB5494DD2} = {EB552FCC-1F5A-432D-9A22-82EBE17B6FB3}
+		{6D9B2675-D32D-49A0-82B0-896DB8C6AC36} = {E83F72B7-731B-4600-B671-CF51DB4711C9}
+		{8B7C9CDA-F488-43B9-8D55-F3559A79862F} = {F790990B-6FC8-4919-AADD-28DA8F3E6F0E}
+		{AA26550D-D5E3-4EF5-8AEF-7A5496340D3F} = {F790990B-6FC8-4919-AADD-28DA8F3E6F0E}
+		{26F1CDA0-77C0-45EF-AF1D-04FE7581C2ED} = {9FFBF5C2-A7A8-4343-967B-71990257145B}
+		{1A1EFDEA-06BC-4E6F-955D-9208FEE3C230} = {CE8E23D7-2A20-4E1E-ACED-8ED798D8B609}
+		{9DD16EAA-0823-4D6B-AA12-B782402D67D6} = {9FFBF5C2-A7A8-4343-967B-71990257145B}
+		{054A30CB-2AE5-4DAF-A599-35DB3A6068C4} = {645E74FC-A172-44A1-B6DF-227ECAD609E3}
+		{13709C87-DF19-45BA-9A78-E5AAE1BCBFE0} = {054A30CB-2AE5-4DAF-A599-35DB3A6068C4}
+		{54721150-F4E9-4B99-87E0-CA848A2593B9} = {054A30CB-2AE5-4DAF-A599-35DB3A6068C4}
+		{709DD7C6-20FE-45B1-997F-0D59DC05C588} = {645E74FC-A172-44A1-B6DF-227ECAD609E3}
+		{E6562491-4475-45A8-840B-F849192A3C38} = {9FFBF5C2-A7A8-4343-967B-71990257145B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60C3B1BC-AA23-4104-BC77-40FECBEC0485}
+	EndGlobalSection
+EndGlobal

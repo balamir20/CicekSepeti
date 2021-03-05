@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CicekSepeti.Data.Model.Infrastructure\CicekSepeti.Data.Model.Infrastructure.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Data.Repository.Infrastructure\CicekSepeti.Data.Repository.Infrastructure.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Model.DtoModel\CicekSepeti.Model.DtoModel.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Model.ViewModel\CicekSepeti.Model.ViewModel.csproj" />
+    <ProjectReference Include="..\CicekSepeti.Operation.BusinessOperation\CicekSepeti.Operation.BusinessOperation.csproj" />
+  </ItemGroup>
+
+</Project>

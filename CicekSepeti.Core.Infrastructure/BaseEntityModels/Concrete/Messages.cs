@@ -1,0 +1,20 @@
+﻿namespace CicekSepeti.Core.Infrastructure.BaseEntityModels.Concrete
+{
+    public static class Messages
+    {
+        #region Success Messages
+        public static string SuccessAdded = "Ekleme Basarili.";
+        public static string SuccessUpdated = "Guncelleme Basarili.";
+        public static string SuccessDeleted = "Silme basarili.";
+        public static string SuccessListed = "Listeleme Basarili.";
+        #endregion
+        #region Error Messages
+        public static string NameInvalidError = "Girilen Ad Gecersiz.";
+        public static string MaintenanceTimeError = "Sistem bakimdadir.";
+        public static string ErrorAdded = "Ekleme Basarisiz.";
+        public static string ErrorUpdated = "Guncelleme Basarisiz.";
+        public static string ErrorDeleted = "Silme basarisiz.";
+        public static string ErrorListed = "Listeleme Basarisiz.";
+        #endregion
+    }
+}
