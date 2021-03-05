@@ -4,7 +4,7 @@ using CicekSepeti.Model.DtoModel.Baskets.Basket.Dto;
 
 namespace CicekSepeti.Operation.BusinessOperation.AutoMapper.Profiles
 {
-    public class BasketProfile :Profile
+    public class BasketProfile : Profile
     {
         public BasketProfile()
         {

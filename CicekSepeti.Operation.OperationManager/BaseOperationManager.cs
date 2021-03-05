@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using CicekSepeti.Core.Infrastructure.BaseEntityModels.Abstract;
 using CicekSepeti.Data.Repository.Infrastructure;
-using NLog;
 
 namespace CicekSepeti.Operation.OperationManager
 {

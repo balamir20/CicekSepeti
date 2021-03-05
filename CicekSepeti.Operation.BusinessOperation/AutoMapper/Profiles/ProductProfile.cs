@@ -9,6 +9,9 @@ namespace CicekSepeti.Operation.BusinessOperation.AutoMapper.Profiles
         public ProductProfile()
         {
             CreateMap<ProductDto, ProductEntity>();
+            CreateMap<ProductAddDto, ProductEntity>();
+            CreateMap<ProductListDto, ProductEntity>();
+            CreateMap<ProductUpdateDto, ProductEntity>();
         }
     }
 }

@@ -16,7 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="NewFolder\" />
+    <Folder Include="Baskets\" />
+    <Folder Include="Customers\" />
+    <Folder Include="Products\" />
   </ItemGroup>
 
 </Project>

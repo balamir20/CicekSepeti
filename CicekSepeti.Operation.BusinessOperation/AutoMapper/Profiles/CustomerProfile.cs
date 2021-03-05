@@ -10,6 +10,8 @@ namespace CicekSepeti.Operation.BusinessOperation.AutoMapper.Profiles
         {
             CreateMap<CustomerAddDto, CustomerEntity>();
             CreateMap<CustomerUpdateDto, CustomerEntity>();
+            CreateMap<CustomerListDto, CustomerEntity>();
+            CreateMap<CustomerDto, CustomerEntity>();
         }
     }
 }

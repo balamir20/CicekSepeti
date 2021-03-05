@@ -5,7 +5,6 @@ using CicekSepeti.Data.Repository.Infrastructure;
 using CicekSepeti.Model.DtoModel.Baskets.Basket.Dto;
 using CicekSepeti.Operation.OperationManager.Baskets;
 using Microsoft.AspNetCore.Mvc;
-using NLog;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -21,7 +20,7 @@ namespace CicekSepeti.Presentation.API.Controllers
             basketOperationManager = new BasketOperationManager(unitOfWork, mapper);
         }
         [HttpPost]
-        public async Task<IResult> Insert([FromBody] BasketDto basketDto)
+        public async Task<IResult> Insert(BasketDto basketDto)
         {
             var result = await basketOperationManager.Insert(basketDto);
             return result;
